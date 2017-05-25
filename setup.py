@@ -11,7 +11,7 @@ setup(
     ''',
     author='Anthony Plunkett',
     py_modules=['flask_gunicorn'],
-    requires=[
+    install_requires=[
         'Flask',
         'gunicorn',
     ]
